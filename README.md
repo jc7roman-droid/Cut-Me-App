@@ -21,7 +21,16 @@ npm install
 npm start
 ```
 
-Scan the QR code with Expo Go, or press `w` for the web build.
+This project uses Expo SDK 56 so it can open in the current public iPhone version of Expo Go.
+
+On Windows PowerShell, use the `.cmd` commands if script execution is restricted:
+
+```powershell
+npm.cmd install
+npx.cmd expo start
+```
+
+Keep PowerShell open, make sure the iPhone and computer use the same Wi-Fi, and scan the QR code with the iPhone Camera. Tap **Open in Expo Go** when prompted. Press `w` in the running Expo terminal to open the web build instead.
 
 ## Verify
 
